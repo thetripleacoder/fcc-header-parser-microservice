@@ -10,28 +10,14 @@ You can access the live version of this microservice here: [Request Header Parse
 
 ## User Stories
 
-1. The API endpoint is `GET /api/whoami`.
-2. A request to `/api/whoami` should return a JSON object with the following keys:
-   - `ipaddress`: Your IP address.
-   - `language`: Your preferred language.
-   - `software`: Information about your browser or user agent.
-3. The project aims to extract relevant data from the request headers and provide it in a structured format.
+1. You should provide your own project, not the example URL.
+2. A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
+3. A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
+4. A request to `/api/whoami` should return a JSON object with your software in the `software` key.
 
 ## Getting Started
 
 1. Clone this repository or use the provided starter project.
 2. Install dependencies using `npm install`.
 3. Run the server using `npm start`.
-4. Access the API at `http://localhost:3000/api/whoami`.
-
-## Deployment
-
-Deploy your project to a hosting service of your choice (e.g., Vercel, Glitch, Heroku) and make sure it is publicly accessible. Submit the URL to your hosted project as the solution link.
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+4. On the HTML page, click on the link under Example Usage and get the result as JSON object under Example Output.
